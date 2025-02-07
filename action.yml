@@ -13,7 +13,7 @@ inputs:
   schema_file:
     description: 'Path to schema.rb'
     required: true
-    default: './db/schema.rb'
+    default: './web/db/schema.rb'
 
 runs:
   using: 'composite'
